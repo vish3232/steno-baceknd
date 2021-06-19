@@ -26,4 +26,4 @@ const draftSchema = new mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('Post', draftSchema);
+module.exports = mongoose.model('Draft', draftSchema);

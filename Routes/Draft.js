@@ -66,3 +66,4 @@ router.post('/getDraftAsPerId/:posts/:slug',(req,res)=>{
     })
 })
 
+module.exports = router

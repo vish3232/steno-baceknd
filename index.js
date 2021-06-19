@@ -17,6 +17,7 @@ app.use(bodyparser.json())
 const port=process.env.PORT || 8080
 app.use(express.static('imageUploads'))
 app.use('/post',require('./Routes/post'))
+app.use('/draft',require('./Routes/Draft'))
 app.use('/image', require('./Routes/imageUpload'))
 app.listen(port, () => {
     console.log('Running on port 8080')
